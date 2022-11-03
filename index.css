@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+    margin-top: 30px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.container{
+    border: none;
+    width: 50%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 25px 20px 20px 20px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 25px;
+}
+.title p{
+    color: rgb(104, 103, 103);
+    font-size: 15px;
+}
+
+.num{
+    border: none;
+    padding: 0 7px 0 7px;
+    border-radius: 5px;
+    background-color: rgb(3, 3, 116);
+    color:#fff;
+    font-size: 20px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    margin: 15px 15px 2px 15px;
+    padding: 8px;
+}
+.car{
+    display: flex;
+}
+.chess{
+    margin-left: 30%;
+}
+.active{
+    border: none;
+    background-color: rgb(248, 248, 255);
+    border-radius: 7px;
+}
+
+.card img{
+    height: 50px;
+}
+.detail{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#read{
+    cursor: pointer;
+}
+.card-det{
+    font-size: 13px;
+    color: rgb(153, 148, 148);
+    padding: 5px 5px 0 5px;
+    font-weight: 500;
+}
+.name{
+    font-size: 15px;
+    font-weight: 800;
+    color: black;
+    margin-right: 5px;
+}
+.det{
+    display: flex;
+    align-items: center;
+}
+.circle{
+    width: 4px;
+    height: 4px;
+    margin-top: 5px;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 50%;
+    display: block;
+}
+.first{
+    font-weight: 900;
+    color: rgb(105, 103, 103);
+    margin-left: 5px;
+}
+.sec{
+    color: rgb(5, 5, 163);
+    font-weight: bold;
+    margin-left: 5px;
+}
+.time{
+    font-size: 13px;
+    color: rgb(153, 148, 148);
+    padding: 5px 5px 0 5px;
+}
+.para{
+    font-size: 16px;
+    border: 1px solid rgb(221, 216, 216);
+    border-radius: 3px;
+    margin-left: 90px;
+    padding: 10px;
+    color: rgb(153, 148, 148);;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 767px){
+    body{
+        margin: 0;
+        background-color: #fff;
+    }
+    .container{
+        width: 91%;
+        margin: 0;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .title p{
+        font-size: 13px;
+    }
+    .name{
+        font-size: 13px;
+    }
+    .card-det{
+        font-size: 11px;
+    }
+    .time{
+        font-size: 12px;
+    }
+   .circle{
+    margin-right: 5px;
+   }
+   .para{
+    font-size: 13px;
+   }
+}
+
